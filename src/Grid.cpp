@@ -1,6 +1,11 @@
 #include "Grid.h"
 #include "Cell.h"
 
+Cell *getCell(int x, int y)
+{
+    return this->&grid[x + (GRID_HEIGHT*y)];
+}
+
 int Grid::index(int x, int y)
 {
     return x + (GRID_HEIGHT*y);
