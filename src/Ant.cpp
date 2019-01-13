@@ -69,3 +69,13 @@ void Ant::moveForward()
             break;
     }
 }
+
+int Ant::getX()
+{
+    return this->x;
+}
+
+int Ant::getY()
+{
+    return this->y;
+}
