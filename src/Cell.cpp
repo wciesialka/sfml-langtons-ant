@@ -1,5 +1,10 @@
 #include "Cell.h"
 
+Cell::Cell()
+{
+    this->white = true;
+}
+
 Cell::Cell(bool white)
 {
     this->white = white;

@@ -6,6 +6,7 @@ class Cell
     private:
         bool white;
     public:
+        Cell();
         Cell(bool white);
         bool isWhite();
         void invert();
