@@ -10,11 +10,12 @@ class Ant
         int x;
         int y;
     public:
-        Ant();
         Ant(int x, int y);
         void turnLeft();
         void turnRight();
         void moveForward();
+        int getX();
+        int getY();
 };
 
 #endif
