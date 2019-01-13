@@ -3,9 +3,9 @@
 
 #include "Cell.h"
 
-#define GRID_SIZE 10
-#define GRID_WIDTH 50
-#define GRID_HEIGHT 50
+#define GRID_SIZE 2
+#define GRID_WIDTH 250
+#define GRID_HEIGHT 250
 #define WIDTH GRID_WIDTH*GRID_SIZE
 #define HEIGHT GRID_HEIGHT*GRID_SIZE
 
