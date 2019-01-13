@@ -1,8 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-
-#define WIDTH 600
-#define HEIGHT 600
+#include "Grid.h"
+#include "Cell.h"
 
 void render(sf::RenderWindow* window)
 {
